@@ -109,11 +109,14 @@ wrapper of `require('js-yaml').safeLoadAll`
 `require('js-yaml').YAMLException`
 
 ## Related
+
+- [node-read-yaml-files](https://github.com/dailyrandomphoto/node-read-yaml-files) - Read and parse YAML files in a directory and its subdirectories.
 - [js-yaml](https://github.com/nodeca/js-yaml) - JavaScript YAML parser and dumper. Very fast.
 
 ## License
-Copyright (c) 2019 dailyrandomphoto. Licensed under the [MIT license][license-url].
+Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
+[my-url]: https://github.com/dailyrandomphoto
 [npm-url]: https://www.npmjs.com/package/node-read-yaml
 [travis-url]: https://travis-ci.org/dailyrandomphoto/node-read-yaml
 [coveralls-url]: https://coveralls.io/github/dailyrandomphoto/node-read-yaml?branch=master
