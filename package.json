@@ -1,6 +1,6 @@
 {
   "name": "node-read-yaml",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Read and parse a YAML file. A wrapper of js-yaml read file directly.",
   "main": "index.js",
   "scripts": {

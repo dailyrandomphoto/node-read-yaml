@@ -3,9 +3,7 @@
 [![NPM Version][npm-version-image]][npm-url]
 [![LICENSE][license-image]][license-url]
 [![Build Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
-[![dependencies Status][dependencies-image]][dependencies-url]
-[![devDependencies Status][devdependencies-image]][devdependencies-url]
+[![code style: prettier][code-style-prettier-image]][code-style-prettier-url]
 
 Read and parse a YAML file. A wrapper of [`js-yaml`](https://github.com/nodeca/js-yaml) read file directly.
 
@@ -130,14 +128,10 @@ Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][
 [my-url]: https://github.com/dailyrandomphoto
 [npm-url]: https://www.npmjs.com/package/node-read-yaml
 [travis-url]: https://travis-ci.org/dailyrandomphoto/node-read-yaml
-[coveralls-url]: https://coveralls.io/github/dailyrandomphoto/node-read-yaml?branch=master
 [license-url]: LICENSE
-[dependencies-url]: https://david-dm.org/dailyrandomphoto/node-read-yaml
-[devdependencies-url]: https://david-dm.org/dailyrandomphoto/node-read-yaml?type=dev
+[code-style-prettier-url]: https://github.com/prettier/prettier
 [npm-downloads-image]: https://img.shields.io/npm/dm/node-read-yaml
 [npm-version-image]: https://img.shields.io/npm/v/node-read-yaml
 [license-image]: https://img.shields.io/npm/l/node-read-yaml
 [travis-image]: https://img.shields.io/travis/dailyrandomphoto/node-read-yaml
-[coveralls-image]: https://img.shields.io/coveralls/github/dailyrandomphoto/node-read-yaml
-[dependencies-image]: https://img.shields.io/david/dailyrandomphoto/node-read-yaml
-[devdependencies-image]: https://img.shields.io/david/dev/dailyrandomphoto/node-read-yaml
+[code-style-prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
