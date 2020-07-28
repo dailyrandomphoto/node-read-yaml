@@ -19,7 +19,7 @@
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
     "node-read-yaml": "file:.",
-    "xo": "^0.25.3"
+    "xo": "^0.32.1"
   },
   "keywords": [
     "node",
