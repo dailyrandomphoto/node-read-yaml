@@ -9,8 +9,9 @@ const read = function (filename, options) {
     ...options
   };
 
-  return fs.readFile(filename, 'utf8')
-    .then(str => parseYaml(str, options));
+  return fs
+    .readFile(filename, 'utf8')
+    .then((string) => parseYaml(string, options));
 };
 
 read.sync = function (filename, options) {
