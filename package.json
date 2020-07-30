@@ -8,7 +8,8 @@
     "lint:fix": "prettier --write . && xo --fix",
     "test": "mocha test.js",
     "test:cov": "nyc npm run test",
-    "test:loop": "while npm test --silent; do :; done"
+    "test:loop": "while npm test --silent; do :; done",
+    "preinstall": "unlink-self 2>&1 | echo unlink-self"
   },
   "dependencies": {
     "fs-extra": "^8.1.0",
@@ -20,6 +21,7 @@
     "nyc": "^15.1.0",
     "node-read-yaml": "file:.",
     "prettier": "latest",
+    "unlink-self": "latest",
     "xo": "latest"
   },
   "keywords": [
